@@ -4,7 +4,12 @@ go:
   - master
 
 install:
-  - go install
+  - go get github.com/carynova/echo-session
+  - go get github.com/labstack/echo
+  - go get github.com/sirupsen/logrus
+  - go get github.com/spf13/viper
+  - go get github.com/valyala/fasttemplate
+  - go get gopkg.in/mgo.v2
 
 script:
   - go test -race -coverprofile=coverage.txt -covermode=atomic
