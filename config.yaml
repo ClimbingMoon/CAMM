@@ -1,0 +1,21 @@
+# debug mode
+debug: true
+
+# salt DONT CHANGE IT IF ANY USER EXISTs
+salt: 23332133
+
+# site config
+host: "localhost"
+port: 4000
+
+# mongodb config
+mongo_host: "localhost"
+mongo_port: 27017
+mongo_user:
+mongo_password:
+mongo_database: "camm"
+
+# redis config
+redis_host: localhost
+redis_port: 6379
+redis_password:
