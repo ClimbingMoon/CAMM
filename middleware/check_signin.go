@@ -3,7 +3,7 @@ package middleware
 import (
 	"net/http"
 
-	session "github.com/ipfans/echo-session"
+	session "github.com/carynova/echo-session"
 	"github.com/labstack/echo"
 	"gopkg.in/mgo.v2/bson"
 

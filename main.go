@@ -4,7 +4,7 @@ import (
 	config "github.com/ClimbingMoon/camm/config"
 	middleware "github.com/ClimbingMoon/camm/middleware"
 	route "github.com/ClimbingMoon/camm/route"
-	session "github.com/ipfans/echo-session"
+	session "github.com/carynova/echo-session"
 
 	echomw "github.com/labstack/echo/middleware"
 

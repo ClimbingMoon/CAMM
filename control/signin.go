@@ -8,7 +8,7 @@ import (
 	config "github.com/ClimbingMoon/camm/config"
 	m "github.com/ClimbingMoon/camm/model"
 	util "github.com/ClimbingMoon/camm/util"
-	session "github.com/ipfans/echo-session"
+	session "github.com/carynova/echo-session"
 
 	"github.com/labstack/echo"
 	log "github.com/sirupsen/logrus"
