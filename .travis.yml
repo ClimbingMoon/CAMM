@@ -10,6 +10,7 @@ install:
   - go get github.com/spf13/viper
   - go get github.com/valyala/fasttemplate
   - go get gopkg.in/mgo.v2
+  - go get github.com/dgrijalva/jwt-go
 
 script:
   - go test -race -coverprofile=coverage.txt -covermode=atomic
